@@ -1,0 +1,177 @@
+
+ul#listaD {/*posição e tamnaho lista direita*/
+	position: relative;
+	float: right;
+	top: 0px;
+	list-style-type: none;
+	height:500%;
+	width: 272px;
+	left:0px;
+	margin: 0px;
+	margin-top:10px;
+	}
+
+
+
+ul#listaD li.even a:hover img, ul#listaD li.odd a:hover img {border:3px solid #0080FF;/*borda en volta da imagem*/} 
+ul#border2 a:hover img{border:2px solid #0080FF;/*borda en volta da imagem*/} 
+
+
+ul#listaD li.odd a, ul#listaD li.even a{
+	background: url() repeat-x left top #ececec;/*cor da caixa*/
+	border:1px solid #d5d5d5;
+	border-top:2px solid #fff;	
+	border-left:1px solid #dfdfdf;
+	overflow: hidden;
+	padding: 0px;
+	width:270px;
+	*padding: 0px 0px 3px 0px; /* fixes for IE 6 */	
+	*margin: -3px 0px 0px -18px; /* fixes for IE 6 */	
+	display:block;
+	cursor:pointer;
+}
+	
+ul#listaD li.odd a:hover, ul#listaD li.even a:hover{
+	background: url() repeat-x left top #d8d8d8;
+	border:1px solid #cfcfcf;
+	border-top:2px solid #ececec;	
+	border-left:1px solid #dfdfdf;
+}
+
+ul#listaD li.odd img, ul#listaD li.even img {/*FOrmatação imagens*/
+	float: left;
+	margin: 6px 0px 7px 7px; 
+}
+	
+ul#listaD li h4 {/*formatação titilo */
+	font-size: 17px;
+	color: #ffffff;
+	text-indent: 10px;
+	text-transform: uppercase;	
+	letter-spacing: -.03em;
+	height:33px;
+	line-height: 33px;
+	margin: 0px;
+	}
+	
+ul#listaD li.titulo{/*formatação caixa do titulo*/
+	border:1px solid #000000;
+	border-bottom:1px solid #cc8900;
+	background: url(=) repeat-x #333333;
+	overflow: hidden;
+	padding: 0px;
+	width:270px;
+}
+
+
+
+ul#listaD li span {
+	font-size:13px;	
+	float: right;
+	width: 188px;
+	margin: 0 9px 6px 0;
+	text-align: left;
+	text-decoration:none;
+	color:#282828;
+}
+
+
+ul#listaD li h5 a:hover	{text-decoration: underline;}
+
+ul#listaD li p {/*Fonte*/
+	float: right;
+	width: 188px;
+	font-weight: normal;
+	display: block;
+	font-size:13px;
+	line-height:14px;
+	padding:0px;
+	margin:5px 9px 4px 0px;
+}
+	
+	
+/* conteudo */
+
+#conteudo {
+	margin: 15px 0px 0px 0px;
+	}
+	
+#conteudo .productblurb {/*Tamanho e posição*/
+	width: 179px;
+	float: left;
+	height: 350px;
+	padding: 10px 0px;
+	}
+	
+
+#conteudo .productblurb h3{/*Nome do produto*/
+	position: relative;
+	min-height: 3em;
+	height: 1%;
+	}	
+		
+#conteudo .productblurb h3 a{/*Nome do produto*/
+	position: absolute;
+	bottom: 0em;
+	line-height: 1.3em;
+	font-weight: bold;
+	width: 90%;
+	color:#000000;
+
+	}
+	
+	
+#conteudo .productblurb h3{/*Nome do produto*/
+	font-size: 1.18em;
+	font-weight: bold;
+	margin: 0px;
+	}
+	
+#conteudo .productblurb h3 a:hover{/*Nome do produto*/
+	text-decoration: underline;
+	}
+
+#conteudo .productblurb p {/*descrisão do produto*/
+	font-size: .95em;
+	line-height: 1.3em;
+	width: 160px;
+	margin: 0px;
+	color:#000000;
+
+	}
+	
+#conteudo .productblurb-img {/*visor do preço*/
+	width: 150px;
+	position: relative;
+	margin: 6px 0px;
+	}
+	
+#conteudo .productblurb-img img {/*Borda do produtos*/
+	border: 1px solid #c8c8c8;
+	}
+	
+#conteudo .productblurb-img:hover img {/*Borda do produtos*/
+	border: 1px solid #0080FF;
+	}
+	
+#conteudo .productblurb-img a.visorpreco {/*imagens produto e preço do produtos*/
+	position: absolute;
+	bottom: 1px;
+	right: 1px;
+	text-align: right;
+	background-color: #212121;
+	margin: 0px;
+	padding: 3px 6px 5px 7px;
+	font-weight: bold;
+	color: #ffffff;
+	font-size: 1em;
+	line-height: 1.2em;
+	letter-spacing: .05em;
+	}
+
+#conteudo .productblurb-img a.visorpreco:hover {/*hover do visor*/
+	text-decoration: none;
+	color: #59c5f3;
+	}
+	
+	
